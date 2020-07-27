@@ -17,6 +17,7 @@
 		FBD16DFE24CB010600FF5468 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD16DFD24CB010600FF5468 /* Video.swift */; };
 		FBD16E0024CB01DC00FF5468 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD16DFF24CB01DC00FF5468 /* Model.swift */; };
 		FBD16E0224CEF07F00FF5468 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD16E0124CEF07F00FF5468 /* ConstantsTemplate.swift */; };
+		FBD16E0424CF163200FF5468 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD16E0324CF163200FF5468 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FBD16DFD24CB010600FF5468 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		FBD16DFF24CB01DC00FF5468 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FBD16E0124CEF07F00FF5468 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		FBD16E0324CF163200FF5468 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				FBD16DFB24CAFC5300FF5468 /* Constants.swift */,
 				FBD16E0124CEF07F00FF5468 /* ConstantsTemplate.swift */,
 				FBD16DFD24CB010600FF5468 /* Video.swift */,
+				FBD16E0324CF163200FF5468 /* Response.swift */,
 				FBD16DFF24CB01DC00FF5468 /* Model.swift */,
 			);
 			path = "Youtube-App";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD16E0424CF163200FF5468 /* Response.swift in Sources */,
 				FBD16E0224CEF07F00FF5468 /* ConstantsTemplate.swift in Sources */,
 				FBD16DEC24C99D7200FF5468 /* ViewController.swift in Sources */,
 				FBD16DE824C99D7200FF5468 /* AppDelegate.swift in Sources */,

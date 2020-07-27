@@ -21,9 +21,16 @@ class Model {
             // Проверяем на ошибки
             if error != nil || data == nil { return }
             
-            // Парсим дату в видео-объекты
-            
-            
+            do {
+                // Парсим дату в видео-объекты
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+                print(response)
+            }
+            catch {
+                print("we have problem with parsing items")
+            }
         }
         
         // Стартуем задание
